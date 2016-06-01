@@ -1,87 +1,94 @@
-# LaravelCms
 Welcome to LaraWebEd!
-Hey! I'm a front-end developer and newbie in PHP and Laravel. I have just learn Laravel for a few month (just 5 ~ 6 months). I have write a CMS for this framework, something like WordPress lol. Support multi language. I hope it can helps you more for start a new project. If you need more support, please feel free to contact me via:
+===================
 
-Facebook: https://www.facebook.com/duyphan.developer
-Skype: tedozi.manson
-Email: duyphan.developer@gmail.com
+
+Hey! I'm a front-end developer and newbie in PHP and Laravel. I have just learn Laravel for a few month (just 5 ~ 6 months).
+I have write a CMS for this framework, something like WordPress lol. Support multi language.
+I hope it can helps you more for start a new project.
+If you need more support, please feel free to contact me via:
+- Facebook: [https://www.facebook.com/duyphan.developer](https://www.facebook.com/duyphan.developer)
+- Skype: tedozi.manson
+- Email: duyphan.developer@gmail.com
+
+
+----------
+
+
 Documents
+-------------
 
-On this projects, I use the latest Laravel version (currently 5.2). Please go to laravel documentation page to check your system requirements.
+On this projects, I use the latest Laravel version (currently 5.2). Please go to [laravel documentation page](https://laravel.com/docs/5.2#installation) to check your system requirements.
 
-Checkout project
 
-git clone git@github.com:duyphan2502/LaraWebEd.git
-Run composer
+#### Checkout project
 
-composer install
-Import the database
+> git clone **git@github.com:duyphan2502/LaraWebEd.git**
 
-You can see the database file in resources/db/mine_laracms.sql
-Create .env file
+#### Run composer
 
-APP_ENV=local
+> composer install
 
-APP_DEBUG=true
+#### Import the database
 
-APP_KEY=base64:qB5Ok2LCGmNvaAHF4OofNIC04/Kz4c497qxSWojN3tg=
+> You can see the database file in **resources/db/mine_laracms.sql**
 
-APP_ADMINCPACCESS=admincp
+#### Create **.env** file
 
-DB_CONNECTION=mysql
+> APP_ENV=local
 
-DB_HOST=localhost
+> APP_DEBUG=true
 
-DB_DATABASE=your_database_name
+> APP_KEY=base64:qB5Ok2LCGmNvaAHF4OofNIC04/Kz4c497qxSWojN3tg=
 
-DB_USERNAME=your_database_user
+> APP_ADMINCPACCESS=admincp
 
-DB_PASSWORD=your_database_password
+> DB_CONNECTION=mysql
 
-DB_PORT=your_database_port
+> DB_HOST=localhost
 
-MAIL_GLOBAL_FROM_ADDRESS=admin@larawebed.com
+> DB_DATABASE=**your_database_name**
 
-MAIL_GLOBAL_FROM_NAME=LaraWebEd
+> DB_USERNAME=**your_database_user**
 
-MAIL_DRIVER=smtp
+> DB_PASSWORD=**your_database_password**
 
-MAIL_HOST=smtp.gmail.com
+> DB_PORT=**your_database_port**
 
-MAIL_PORT=465
+> MAIL_GLOBAL_FROM_ADDRESS=admin@larawebed.com
 
-MAIL_USERNAME=your_email
+> MAIL_GLOBAL_FROM_NAME=LaraWebEd
 
-MAIL_PASSWORD=your_email_password
+> MAIL_DRIVER=smtp
 
-MAIL_ENCRYPTION=ssl
-Note
+> MAIL_HOST=smtp.gmail.com
 
-This site can only be run at domain name, not folder link.
-On your localhost, setting virtual host. Something like
-larawebed.mydev.local
-is ok. Cannot use as
+> MAIL_PORT=465
 
-localhost/larawebed/...
-Well done! Now, you can login to the dashboard by access to your_domain_site/admincp
+> MAIL_USERNAME=**your_email**
 
-Username: webmaster
+> MAIL_PASSWORD=**your_email_password**
 
-Password: PassCuaDev@2015
-Demo site
+> MAIL_ENCRYPTION=ssl
 
-Checkout branch demo-blog for a demo blog site.
+
+Well done! Now, you can login to the dashboard by access to [your_domain_site/admincp](your_domain_site/admincp)
+> Username: **webmaster**
+
+> Password: **PassCuaDev@2015**
+
+
+#### Demo site
+Checkout branch **demo-blog** for a demo blog site.
 
 Enjoy!
 
-Please star for me to make me happy and continue to develop this cms <3. I always try my best!
+#####Please star for me to make me happy and continue to develop this cms <3. I always try my best!
 
-About the future
-
+####About the future
 I'm creating a ecommerce site with this cms. I will release that site for all of you when done.
 
-Table of content
+####Table of content
 
-Custom fields
-Page template
-Models
+- [Custom fields](./documentation/CustomFields.md)
+- [Page template](./documentation/PageTemplate.md)
+- [Models](./documentation/Models.md)

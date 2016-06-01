@@ -1,0 +1,13 @@
+goto dircetory change:
+F:\xampp\apache\conf\extra\httpd-vhosts.conf
+
+
+#larawebed.mydev.local
+<VirtualHost *:80>
+  ServerName larawebed.mydev.local
+  DocumentRoot "F:\xampp\htdocs\LaraWebEd-master\public"
+  <Directory "F:\xampp\htdocs\LaraWebEd-master\public">
+    AllowOverride All
+    Require all granted
+  </Directory>
+</VirtualHost>
